@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/xNetFuture-iOS/MDVPNTypeCell.m \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/xNetFuture-iOS/MDVPNTypeCell.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/xNetFuture-iOS/MDVPNModel.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/xNetFuture-iOS/JSTool.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/xNetFuture-iOS/UIColor+DD.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/Masonry.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/MASUtilities.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/View+MASAdditions.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/MASConstraintMaker.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/MASConstraint.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/MASViewAttribute.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/View+MASShorthandAdditions.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/ViewController+MASAdditions.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/NSArray+MASAdditions.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/NSArray+MASShorthandAdditions.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/MASCompositeConstraint.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/MASViewConstraint.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/MASLayoutConstraint.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/Pods/Headers/Public/Masonry/NSLayoutConstraint+MASDebugAdditions.h \
+  /Users/huangrui/Desktop/Study/xray-ios-mac-main/xNetFuture/Interface/VPNManager/YDFutureManager.h

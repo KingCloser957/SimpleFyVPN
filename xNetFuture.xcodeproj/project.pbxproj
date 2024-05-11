@@ -1,0 +1,1550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F19B152BD9F31700D21CE5 /* YDConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19AFF2BD9F31600D21CE5 /* YDConnection.m */; };
+		04F19B162BD9F31700D21CE5 /* YDConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19AFF2BD9F31600D21CE5 /* YDConnection.m */; };
+		04F19B172BD9F31700D21CE5 /* YDConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19AFF2BD9F31600D21CE5 /* YDConnection.m */; };
+		04F19B182BD9F31700D21CE5 /* YDConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19AFF2BD9F31600D21CE5 /* YDConnection.m */; };
+		04F19B192BD9F31700D21CE5 /* YDVPNStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B002BD9F31600D21CE5 /* YDVPNStatus.m */; };
+		04F19B1A2BD9F31700D21CE5 /* YDVPNStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B002BD9F31600D21CE5 /* YDVPNStatus.m */; };
+		04F19B1B2BD9F31700D21CE5 /* YDVPNStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B002BD9F31600D21CE5 /* YDVPNStatus.m */; };
+		04F19B1C2BD9F31700D21CE5 /* YDVPNStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B002BD9F31600D21CE5 /* YDVPNStatus.m */; };
+		04F19B1D2BD9F31700D21CE5 /* YDFutureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B032BD9F31600D21CE5 /* YDFutureManager.m */; };
+		04F19B1E2BD9F31700D21CE5 /* YDFutureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B032BD9F31600D21CE5 /* YDFutureManager.m */; };
+		04F19B1F2BD9F31700D21CE5 /* YDFutureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B032BD9F31600D21CE5 /* YDFutureManager.m */; };
+		04F19B202BD9F31700D21CE5 /* YDFutureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B032BD9F31600D21CE5 /* YDFutureManager.m */; };
+		04F19B212BD9F31700D21CE5 /* YDConnection_.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B072BD9F31600D21CE5 /* YDConnection_.m */; };
+		04F19B222BD9F31700D21CE5 /* YDConnection_.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B072BD9F31600D21CE5 /* YDConnection_.m */; };
+		04F19B232BD9F31700D21CE5 /* YDConnection_.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B072BD9F31600D21CE5 /* YDConnection_.m */; };
+		04F19B242BD9F31700D21CE5 /* YDConnection_.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B072BD9F31600D21CE5 /* YDConnection_.m */; };
+		04F19B272BD9F31700D21CE5 /* YDVPNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B082BD9F31600D21CE5 /* YDVPNManager.m */; };
+		04F19B292BD9F31700D21CE5 /* YDProtocolParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0A2BD9F31600D21CE5 /* YDProtocolParser.m */; };
+		04F19B2A2BD9F31700D21CE5 /* YDProtocolParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0A2BD9F31600D21CE5 /* YDProtocolParser.m */; };
+		04F19B2B2BD9F31700D21CE5 /* YDProtocolParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0A2BD9F31600D21CE5 /* YDProtocolParser.m */; };
+		04F19B2C2BD9F31700D21CE5 /* YDProtocolParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0A2BD9F31600D21CE5 /* YDProtocolParser.m */; };
+		04F19B2D2BD9F31700D21CE5 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0D2BD9F31600D21CE5 /* NSString+Base64.m */; };
+		04F19B2E2BD9F31700D21CE5 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0D2BD9F31600D21CE5 /* NSString+Base64.m */; };
+		04F19B2F2BD9F31700D21CE5 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0D2BD9F31600D21CE5 /* NSString+Base64.m */; };
+		04F19B302BD9F31700D21CE5 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0D2BD9F31600D21CE5 /* NSString+Base64.m */; };
+		04F19B312BD9F31700D21CE5 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0E2BD9F31600D21CE5 /* AESCrypt.m */; };
+		04F19B322BD9F31700D21CE5 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0E2BD9F31600D21CE5 /* AESCrypt.m */; };
+		04F19B332BD9F31700D21CE5 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0E2BD9F31600D21CE5 /* AESCrypt.m */; };
+		04F19B342BD9F31700D21CE5 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B0E2BD9F31600D21CE5 /* AESCrypt.m */; };
+		04F19B352BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B132BD9F31600D21CE5 /* NSData+CommonCrypto.m */; };
+		04F19B362BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B132BD9F31600D21CE5 /* NSData+CommonCrypto.m */; };
+		04F19B372BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B132BD9F31600D21CE5 /* NSData+CommonCrypto.m */; };
+		04F19B382BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B132BD9F31600D21CE5 /* NSData+CommonCrypto.m */; };
+		04F19B392BD9F31700D21CE5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B142BD9F31600D21CE5 /* NSData+Base64.m */; };
+		04F19B3A2BD9F31700D21CE5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B142BD9F31600D21CE5 /* NSData+Base64.m */; };
+		04F19B3B2BD9F31700D21CE5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B142BD9F31600D21CE5 /* NSData+Base64.m */; };
+		04F19B3C2BD9F31700D21CE5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B142BD9F31600D21CE5 /* NSData+Base64.m */; };
+		04F19B482BD9F38E00D21CE5 /* Potatso.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B3F2BD9F38E00D21CE5 /* Potatso.m */; };
+		04F19B492BD9F38E00D21CE5 /* Potatso.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B3F2BD9F38E00D21CE5 /* Potatso.m */; };
+		04F19B4A2BD9F38E00D21CE5 /* Potatso.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B3F2BD9F38E00D21CE5 /* Potatso.m */; };
+		04F19B4B2BD9F38E00D21CE5 /* Potatso.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B3F2BD9F38E00D21CE5 /* Potatso.m */; };
+		04F19B4C2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B402BD9F38E00D21CE5 /* NSError+Helper.m */; };
+		04F19B4D2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B402BD9F38E00D21CE5 /* NSError+Helper.m */; };
+		04F19B4E2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B402BD9F38E00D21CE5 /* NSError+Helper.m */; };
+		04F19B4F2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B402BD9F38E00D21CE5 /* NSError+Helper.m */; };
+		04F19B502BD9F38E00D21CE5 /* HLLFileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B422BD9F38E00D21CE5 /* HLLFileLog.m */; };
+		04F19B512BD9F38E00D21CE5 /* HLLFileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B422BD9F38E00D21CE5 /* HLLFileLog.m */; };
+		04F19B522BD9F38E00D21CE5 /* HLLFileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B422BD9F38E00D21CE5 /* HLLFileLog.m */; };
+		04F19B532BD9F38E00D21CE5 /* HLLFileLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B422BD9F38E00D21CE5 /* HLLFileLog.m */; };
+		04F19B542BD9F38E00D21CE5 /* JSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B432BD9F38E00D21CE5 /* JSONUtils.m */; };
+		04F19B552BD9F38E00D21CE5 /* JSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B432BD9F38E00D21CE5 /* JSONUtils.m */; };
+		04F19B562BD9F38E00D21CE5 /* JSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B432BD9F38E00D21CE5 /* JSONUtils.m */; };
+		04F19B572BD9F38E00D21CE5 /* JSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B432BD9F38E00D21CE5 /* JSONUtils.m */; };
+		04F19B582BD9F38E00D21CE5 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B452BD9F38E00D21CE5 /* Settings.m */; };
+		04F19B592BD9F38E00D21CE5 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B452BD9F38E00D21CE5 /* Settings.m */; };
+		04F19B5A2BD9F38E00D21CE5 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B452BD9F38E00D21CE5 /* Settings.m */; };
+		04F19B5B2BD9F38E00D21CE5 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B452BD9F38E00D21CE5 /* Settings.m */; };
+		04F19B5C2BD9FEB300D21CE5 /* YDVPNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B082BD9F31600D21CE5 /* YDVPNManager.m */; };
+		04F19B5D2BD9FEB400D21CE5 /* YDVPNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B082BD9F31600D21CE5 /* YDVPNManager.m */; };
+		04F19B5E2BD9FEB400D21CE5 /* YDVPNManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19B082BD9F31600D21CE5 /* YDVPNManager.m */; };
+		04F19C372BEA1CBB00D21CE5 /* SZJsonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C362BEA1CBA00D21CE5 /* SZJsonLog.m */; };
+		04F19C382BEA1CBC00D21CE5 /* SZJsonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C362BEA1CBA00D21CE5 /* SZJsonLog.m */; };
+		04F19C392BEA1CBC00D21CE5 /* SZJsonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C362BEA1CBA00D21CE5 /* SZJsonLog.m */; };
+		04F19C3A2BEA1CBE00D21CE5 /* SZJsonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C362BEA1CBA00D21CE5 /* SZJsonLog.m */; };
+		04F19C3D2BEA55D500D21CE5 /* MDVPNTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C3C2BEA55D500D21CE5 /* MDVPNTypeCell.m */; };
+		04F19C3F2BEA55D600D21CE5 /* MDVPNTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C3C2BEA55D500D21CE5 /* MDVPNTypeCell.m */; };
+		04F19C432BEA56DA00D21CE5 /* MDVPNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C422BEA56DA00D21CE5 /* MDVPNModel.m */; };
+		04F19C442BEA56DA00D21CE5 /* MDVPNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C422BEA56DA00D21CE5 /* MDVPNModel.m */; };
+		04F19C452BEA56DA00D21CE5 /* MDVPNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C422BEA56DA00D21CE5 /* MDVPNModel.m */; };
+		04F19C462BEA56DA00D21CE5 /* MDVPNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C422BEA56DA00D21CE5 /* MDVPNModel.m */; };
+		04F19C492BEB03B000D21CE5 /* MDLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C482BEB03B000D21CE5 /* MDLineViewController.m */; };
+		04F19C4B2BEB03B000D21CE5 /* MDLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C482BEB03B000D21CE5 /* MDLineViewController.m */; };
+		04F19C4F2BEB096A00D21CE5 /* JSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C4E2BEB096A00D21CE5 /* JSTool.m */; };
+		04F19C502BEB096A00D21CE5 /* JSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C4E2BEB096A00D21CE5 /* JSTool.m */; };
+		04F19C512BEB096A00D21CE5 /* JSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C4E2BEB096A00D21CE5 /* JSTool.m */; };
+		04F19C522BEB096A00D21CE5 /* JSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C4E2BEB096A00D21CE5 /* JSTool.m */; };
+		04F19C552BEB0A7300D21CE5 /* UIColor+DD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C532BEB0A7200D21CE5 /* UIColor+DD.m */; };
+		04F19C562BEB0A7300D21CE5 /* UIColor+DD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C532BEB0A7200D21CE5 /* UIColor+DD.m */; };
+		04F19C572BEB0A7300D21CE5 /* UIColor+DD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C532BEB0A7200D21CE5 /* UIColor+DD.m */; };
+		04F19C582BEB0A7300D21CE5 /* UIColor+DD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C532BEB0A7200D21CE5 /* UIColor+DD.m */; };
+		04F19C772BEB2E3E00D21CE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04F19C5E2BEB2E3E00D21CE5 /* README.md */; };
+		04F19C782BEB2E3E00D21CE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04F19C5E2BEB2E3E00D21CE5 /* README.md */; };
+		04F19C792BEB2E3E00D21CE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04F19C5E2BEB2E3E00D21CE5 /* README.md */; };
+		04F19C7A2BEB2E3E00D21CE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 04F19C5E2BEB2E3E00D21CE5 /* README.md */; };
+		04F19C7B2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C5F2BEB2E3E00D21CE5 /* PingFoundation.m */; };
+		04F19C7C2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C5F2BEB2E3E00D21CE5 /* PingFoundation.m */; };
+		04F19C7D2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C5F2BEB2E3E00D21CE5 /* PingFoundation.m */; };
+		04F19C7E2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C5F2BEB2E3E00D21CE5 /* PingFoundation.m */; };
+		04F19C7F2BEB2E3E00D21CE5 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C602BEB2E3E00D21CE5 /* PingHelper.m */; };
+		04F19C802BEB2E3E00D21CE5 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C602BEB2E3E00D21CE5 /* PingHelper.m */; };
+		04F19C812BEB2E3E00D21CE5 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C602BEB2E3E00D21CE5 /* PingHelper.m */; };
+		04F19C822BEB2E3E00D21CE5 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C602BEB2E3E00D21CE5 /* PingHelper.m */; };
+		04F19C832BEB2E3F00D21CE5 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C632BEB2E3E00D21CE5 /* LocalConnection.m */; };
+		04F19C842BEB2E3F00D21CE5 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C632BEB2E3E00D21CE5 /* LocalConnection.m */; };
+		04F19C852BEB2E3F00D21CE5 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C632BEB2E3E00D21CE5 /* LocalConnection.m */; };
+		04F19C862BEB2E3F00D21CE5 /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C632BEB2E3E00D21CE5 /* LocalConnection.m */; };
+		04F19C872BEB2E3F00D21CE5 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6C2BEB2E3E00D21CE5 /* ReachState.m */; };
+		04F19C882BEB2E3F00D21CE5 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6C2BEB2E3E00D21CE5 /* ReachState.m */; };
+		04F19C892BEB2E3F00D21CE5 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6C2BEB2E3E00D21CE5 /* ReachState.m */; };
+		04F19C8A2BEB2E3F00D21CE5 /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6C2BEB2E3E00D21CE5 /* ReachState.m */; };
+		04F19C8B2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6E2BEB2E3E00D21CE5 /* ReachStateUnloaded.m */; };
+		04F19C8C2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6E2BEB2E3E00D21CE5 /* ReachStateUnloaded.m */; };
+		04F19C8D2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6E2BEB2E3E00D21CE5 /* ReachStateUnloaded.m */; };
+		04F19C8E2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6E2BEB2E3E00D21CE5 /* ReachStateUnloaded.m */; };
+		04F19C8F2BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6F2BEB2E3E00D21CE5 /* ReachStateUnReachable.m */; };
+		04F19C902BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6F2BEB2E3E00D21CE5 /* ReachStateUnReachable.m */; };
+		04F19C912BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6F2BEB2E3E00D21CE5 /* ReachStateUnReachable.m */; };
+		04F19C922BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C6F2BEB2E3E00D21CE5 /* ReachStateUnReachable.m */; };
+		04F19C932BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C702BEB2E3E00D21CE5 /* ReachStateWWAN.m */; };
+		04F19C942BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C702BEB2E3E00D21CE5 /* ReachStateWWAN.m */; };
+		04F19C952BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C702BEB2E3E00D21CE5 /* ReachStateWWAN.m */; };
+		04F19C962BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C702BEB2E3E00D21CE5 /* ReachStateWWAN.m */; };
+		04F19C972BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C722BEB2E3E00D21CE5 /* ReachStateLoading.m */; };
+		04F19C982BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C722BEB2E3E00D21CE5 /* ReachStateLoading.m */; };
+		04F19C992BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C722BEB2E3E00D21CE5 /* ReachStateLoading.m */; };
+		04F19C9A2BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C722BEB2E3E00D21CE5 /* ReachStateLoading.m */; };
+		04F19C9B2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C732BEB2E3E00D21CE5 /* FSMEngine.m */; };
+		04F19C9C2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C732BEB2E3E00D21CE5 /* FSMEngine.m */; };
+		04F19C9D2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C732BEB2E3E00D21CE5 /* FSMEngine.m */; };
+		04F19C9E2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C732BEB2E3E00D21CE5 /* FSMEngine.m */; };
+		04F19C9F2BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C742BEB2E3E00D21CE5 /* FSMStateUtil.m */; };
+		04F19CA02BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C742BEB2E3E00D21CE5 /* FSMStateUtil.m */; };
+		04F19CA12BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C742BEB2E3E00D21CE5 /* FSMStateUtil.m */; };
+		04F19CA22BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C742BEB2E3E00D21CE5 /* FSMStateUtil.m */; };
+		04F19CA32BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C752BEB2E3E00D21CE5 /* ReachStateWIFI.m */; };
+		04F19CA42BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C752BEB2E3E00D21CE5 /* ReachStateWIFI.m */; };
+		04F19CA52BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C752BEB2E3E00D21CE5 /* ReachStateWIFI.m */; };
+		04F19CA62BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C752BEB2E3E00D21CE5 /* ReachStateWIFI.m */; };
+		04F19CA72BEB2E3F00D21CE5 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C762BEB2E3E00D21CE5 /* RealReachability.m */; };
+		04F19CA82BEB2E3F00D21CE5 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C762BEB2E3E00D21CE5 /* RealReachability.m */; };
+		04F19CA92BEB2E3F00D21CE5 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C762BEB2E3E00D21CE5 /* RealReachability.m */; };
+		04F19CAA2BEB2E3F00D21CE5 /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19C762BEB2E3E00D21CE5 /* RealReachability.m */; };
+		04F19CAD2BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19CAC2BEB2E5500D21CE5 /* JSNetReachableManager.m */; };
+		04F19CAE2BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19CAC2BEB2E5500D21CE5 /* JSNetReachableManager.m */; };
+		04F19CAF2BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19CAC2BEB2E5500D21CE5 /* JSNetReachableManager.m */; };
+		04F19CB02BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F19CAC2BEB2E5500D21CE5 /* JSNetReachableManager.m */; };
+		04F19CB12BEB49BB00D21CE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48AC2A8E600100B2671F /* ViewController.m */; };
+		32A5CDD2E7B3ADF8728276D5 /* Pods_xNetFuture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6CE664E05A99EA280E02A6 /* Pods_xNetFuture.framework */; };
+		844018AD7F5EF6D368B8BD91 /* libPods-xNetFuture-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDFA44806172F06CF8CDF2C /* libPods-xNetFuture-iOS.a */; };
+		FB3D485F2A8E28E200B2671F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D485E2A8E28D700B2671F /* libresolv.tbd */; };
+		FB3D486A2A8E3DF700B2671F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D48692A8E3DF700B2671F /* NetworkExtension.framework */; };
+		FB3D486E2A8E3DF800B2671F /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D486D2A8E3DF800B2671F /* PacketTunnelProvider.m */; };
+		FB3D48732A8E3DF800B2671F /* xFutureTunnel.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB3D48682A8E3DF700B2671F /* xFutureTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB3D487F2A8E3EBC00B2671F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D485E2A8E28D700B2671F /* libresolv.tbd */; };
+		FB3D488E2A8E5E7D00B2671F /* YDVPNListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48822A8E5E7C00B2671F /* YDVPNListItem.m */; };
+		FB3D488F2A8E5E7D00B2671F /* YDVTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48852A8E5E7C00B2671F /* YDVTextField.m */; };
+		FB3D48902A8E5E7D00B2671F /* YDVDashView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48892A8E5E7D00B2671F /* YDVDashView.m */; };
+		FB3D48912A8E5E7D00B2671F /* YDXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D488A2A8E5E7D00B2671F /* YDXButton.m */; };
+		FB3D489A2A8E5F7200B2671F /* geoip.dat in Resources */ = {isa = PBXBuildFile; fileRef = FB6B6B3A2A3C456100349B44 /* geoip.dat */; };
+		FB3D489B2A8E5F7200B2671F /* geosite.dat in Resources */ = {isa = PBXBuildFile; fileRef = FB6B6B3B2A3C456100349B44 /* geosite.dat */; };
+		FB3D48A72A8E600100B2671F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48A62A8E600100B2671F /* AppDelegate.m */; };
+		FB3D48AA2A8E600100B2671F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48A92A8E600100B2671F /* SceneDelegate.m */; };
+		FB3D48AD2A8E600100B2671F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48AC2A8E600100B2671F /* ViewController.m */; };
+		FB3D48B02A8E600100B2671F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3D48AE2A8E600100B2671F /* Main.storyboard */; };
+		FB3D48B22A8E600200B2671F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3D48B12A8E600200B2671F /* Assets.xcassets */; };
+		FB3D48B52A8E600200B2671F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3D48B32A8E600200B2671F /* LaunchScreen.storyboard */; };
+		FB3D48B82A8E600200B2671F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D48B72A8E600200B2671F /* main.m */; };
+		FB3D48C02A8E60E900B2671F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D48BF2A8E60E400B2671F /* libresolv.tbd */; };
+		FB3D48C72A8E618500B2671F /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D48692A8E3DF700B2671F /* NetworkExtension.framework */; };
+		FB3D48D12A8E618500B2671F /* xFutureTunnel-iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB3D48C62A8E618500B2671F /* xFutureTunnel-iOS.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB3D48D52A8E61A300B2671F /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D486D2A8E3DF800B2671F /* PacketTunnelProvider.m */; };
+		FB3D48D72A8E61AB00B2671F /* geoip.dat in Resources */ = {isa = PBXBuildFile; fileRef = FB6B6B3A2A3C456100349B44 /* geoip.dat */; };
+		FB3D48D82A8E61AB00B2671F /* geosite.dat in Resources */ = {isa = PBXBuildFile; fileRef = FB6B6B3B2A3C456100349B44 /* geosite.dat */; };
+		FB3D48DC2A8E640400B2671F /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3D48BF2A8E60E400B2671F /* libresolv.tbd */; };
+		FB6B6B012A3C350000349B44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6B6B002A3C350000349B44 /* AppDelegate.m */; };
+		FB6B6B062A3C350100349B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6B6B052A3C350100349B44 /* Assets.xcassets */; };
+		FB6B6B092A3C350100349B44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6B6B072A3C350100349B44 /* Main.storyboard */; };
+		FB6B6B0B2A3C350100349B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6B6B0A2A3C350100349B44 /* main.m */; };
+		FB6B6B2D2A3C36B800349B44 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6B6B2C2A3C36B800349B44 /* Masonry.framework */; };
+		FB6B6B2E2A3C36B800349B44 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB6B6B2C2A3C36B800349B44 /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB6B6B352A3C39C100349B44 /* YDVPNListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6B6B342A3C39C100349B44 /* YDVPNListItem.xib */; };
+		FB6B6B382A3C3E8B00349B44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6B6B362A3C3E8B00349B44 /* ViewController.m */; };
+		FBC689A22AA8538C00940B09 /* Future.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC689A12AA8538C00940B09 /* Future.xcframework */; };
+		FBC689A32AA8538C00940B09 /* Future.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC689A12AA8538C00940B09 /* Future.xcframework */; };
+		FBC689A42AA8538C00940B09 /* Future.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC689A12AA8538C00940B09 /* Future.xcframework */; };
+		FBC689A52AA8538C00940B09 /* Future.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC689A12AA8538C00940B09 /* Future.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB3D48712A8E3DF800B2671F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6B6AF42A3C350000349B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB3D48672A8E3DF700B2671F;
+			remoteInfo = xFutureTunnel;
+		};
+		FB3D48CE2A8E618500B2671F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6B6AF42A3C350000349B44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB3D48C52A8E618500B2671F;
+			remoteInfo = "xFutureTunnel-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB3D48772A8E3DF800B2671F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB3D48732A8E3DF800B2671F /* xFutureTunnel.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3D48D02A8E618500B2671F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB3D48D12A8E618500B2671F /* xFutureTunnel-iOS.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B6B1E2A3C359100349B44 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB6B6B2E2A3C36B800349B44 /* Masonry.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04F19AFF2BD9F31600D21CE5 /* YDConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDConnection.m; sourceTree = "<group>"; };
+		04F19B002BD9F31600D21CE5 /* YDVPNStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVPNStatus.m; sourceTree = "<group>"; };
+		04F19B012BD9F31600D21CE5 /* YDVPNManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVPNManager.h; sourceTree = "<group>"; };
+		04F19B022BD9F31600D21CE5 /* YDConnection_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDConnection_.h; sourceTree = "<group>"; };
+		04F19B032BD9F31600D21CE5 /* YDFutureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDFutureManager.m; sourceTree = "<group>"; };
+		04F19B042BD9F31600D21CE5 /* YDProtocolParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDProtocolParser.h; sourceTree = "<group>"; };
+		04F19B052BD9F31600D21CE5 /* YDVPNStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVPNStatus.h; sourceTree = "<group>"; };
+		04F19B062BD9F31600D21CE5 /* YDConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDConnection.h; sourceTree = "<group>"; };
+		04F19B072BD9F31600D21CE5 /* YDConnection_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDConnection_.m; sourceTree = "<group>"; };
+		04F19B082BD9F31600D21CE5 /* YDVPNManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVPNManager.m; sourceTree = "<group>"; };
+		04F19B0A2BD9F31600D21CE5 /* YDProtocolParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDProtocolParser.m; sourceTree = "<group>"; };
+		04F19B0B2BD9F31600D21CE5 /* YDFutureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDFutureManager.h; sourceTree = "<group>"; };
+		04F19B0D2BD9F31600D21CE5 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		04F19B0E2BD9F31600D21CE5 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		04F19B0F2BD9F31600D21CE5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		04F19B102BD9F31600D21CE5 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		04F19B112BD9F31600D21CE5 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		04F19B122BD9F31600D21CE5 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		04F19B132BD9F31600D21CE5 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		04F19B142BD9F31600D21CE5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		04F19B3E2BD9F38E00D21CE5 /* JSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtils.h; sourceTree = "<group>"; };
+		04F19B3F2BD9F38E00D21CE5 /* Potatso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potatso.m; sourceTree = "<group>"; };
+		04F19B402BD9F38E00D21CE5 /* NSError+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Helper.m"; sourceTree = "<group>"; };
+		04F19B412BD9F38E00D21CE5 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		04F19B422BD9F38E00D21CE5 /* HLLFileLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLFileLog.m; sourceTree = "<group>"; };
+		04F19B432BD9F38E00D21CE5 /* JSONUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONUtils.m; sourceTree = "<group>"; };
+		04F19B442BD9F38E00D21CE5 /* Potatso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potatso.h; sourceTree = "<group>"; };
+		04F19B452BD9F38E00D21CE5 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		04F19B462BD9F38E00D21CE5 /* NSError+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Helper.h"; sourceTree = "<group>"; };
+		04F19B472BD9F38E00D21CE5 /* HLLFileLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLFileLog.h; sourceTree = "<group>"; };
+		04F19B5F2BDA015400D21CE5 /* YDPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDPCH.h; sourceTree = "<group>"; };
+		04F19C352BEA1CB900D21CE5 /* SZJsonLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZJsonLog.h; sourceTree = "<group>"; };
+		04F19C362BEA1CBA00D21CE5 /* SZJsonLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZJsonLog.m; sourceTree = "<group>"; };
+		04F19C3B2BEA55D500D21CE5 /* MDVPNTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDVPNTypeCell.h; sourceTree = "<group>"; };
+		04F19C3C2BEA55D500D21CE5 /* MDVPNTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDVPNTypeCell.m; sourceTree = "<group>"; };
+		04F19C412BEA56DA00D21CE5 /* MDVPNModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDVPNModel.h; sourceTree = "<group>"; };
+		04F19C422BEA56DA00D21CE5 /* MDVPNModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDVPNModel.m; sourceTree = "<group>"; };
+		04F19C472BEB03B000D21CE5 /* MDLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDLineViewController.h; sourceTree = "<group>"; };
+		04F19C482BEB03B000D21CE5 /* MDLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDLineViewController.m; sourceTree = "<group>"; };
+		04F19C4D2BEB096A00D21CE5 /* JSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTool.h; sourceTree = "<group>"; };
+		04F19C4E2BEB096A00D21CE5 /* JSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTool.m; sourceTree = "<group>"; };
+		04F19C532BEB0A7200D21CE5 /* UIColor+DD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DD.m"; sourceTree = "<group>"; };
+		04F19C542BEB0A7300D21CE5 /* UIColor+DD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DD.h"; sourceTree = "<group>"; };
+		04F19C5A2BEB2E3E00D21CE5 /* RealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealReachability.h; sourceTree = "<group>"; };
+		04F19C5C2BEB2E3E00D21CE5 /* PingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingFoundation.h; sourceTree = "<group>"; };
+		04F19C5D2BEB2E3E00D21CE5 /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
+		04F19C5E2BEB2E3E00D21CE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04F19C5F2BEB2E3E00D21CE5 /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
+		04F19C602BEB2E3E00D21CE5 /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
+		04F19C622BEB2E3E00D21CE5 /* LocalConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalConnection.h; sourceTree = "<group>"; };
+		04F19C632BEB2E3E00D21CE5 /* LocalConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalConnection.m; sourceTree = "<group>"; };
+		04F19C652BEB2E3E00D21CE5 /* FSMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMDefines.h; sourceTree = "<group>"; };
+		04F19C662BEB2E3E00D21CE5 /* ReachStateUnReachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnReachable.h; sourceTree = "<group>"; };
+		04F19C672BEB2E3E00D21CE5 /* ReachStateWWAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWWAN.h; sourceTree = "<group>"; };
+		04F19C682BEB2E3E00D21CE5 /* ReachStateUnloaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnloaded.h; sourceTree = "<group>"; };
+		04F19C692BEB2E3E00D21CE5 /* FSMStateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMStateUtil.h; sourceTree = "<group>"; };
+		04F19C6A2BEB2E3E00D21CE5 /* FSMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMEngine.h; sourceTree = "<group>"; };
+		04F19C6B2BEB2E3E00D21CE5 /* ReachStateLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateLoading.h; sourceTree = "<group>"; };
+		04F19C6C2BEB2E3E00D21CE5 /* ReachState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachState.m; sourceTree = "<group>"; };
+		04F19C6D2BEB2E3E00D21CE5 /* ReachStateWIFI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWIFI.h; sourceTree = "<group>"; };
+		04F19C6E2BEB2E3E00D21CE5 /* ReachStateUnloaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnloaded.m; sourceTree = "<group>"; };
+		04F19C6F2BEB2E3E00D21CE5 /* ReachStateUnReachable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnReachable.m; sourceTree = "<group>"; };
+		04F19C702BEB2E3E00D21CE5 /* ReachStateWWAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWWAN.m; sourceTree = "<group>"; };
+		04F19C712BEB2E3E00D21CE5 /* ReachState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachState.h; sourceTree = "<group>"; };
+		04F19C722BEB2E3E00D21CE5 /* ReachStateLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateLoading.m; sourceTree = "<group>"; };
+		04F19C732BEB2E3E00D21CE5 /* FSMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMEngine.m; sourceTree = "<group>"; };
+		04F19C742BEB2E3E00D21CE5 /* FSMStateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMStateUtil.m; sourceTree = "<group>"; };
+		04F19C752BEB2E3E00D21CE5 /* ReachStateWIFI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWIFI.m; sourceTree = "<group>"; };
+		04F19C762BEB2E3E00D21CE5 /* RealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealReachability.m; sourceTree = "<group>"; };
+		04F19CAB2BEB2E5500D21CE5 /* JSNetReachableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNetReachableManager.h; sourceTree = "<group>"; };
+		04F19CAC2BEB2E5500D21CE5 /* JSNetReachableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNetReachableManager.m; sourceTree = "<group>"; };
+		1D6CE664E05A99EA280E02A6 /* Pods_xNetFuture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xNetFuture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7C56BE5EB32D40BC077078 /* Pods-xNetFuture-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xNetFuture-iOS.release.xcconfig"; path = "Target Support Files/Pods-xNetFuture-iOS/Pods-xNetFuture-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		C433548FDA88549F543C1B12 /* Pods-xNetFuture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xNetFuture.release.xcconfig"; path = "Target Support Files/Pods-xNetFuture/Pods-xNetFuture.release.xcconfig"; sourceTree = "<group>"; };
+		C7468608939E25B05FC9EE9D /* Pods-xNetFuture-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xNetFuture-iOS.debug.xcconfig"; path = "Target Support Files/Pods-xNetFuture-iOS/Pods-xNetFuture-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CCDFA44806172F06CF8CDF2C /* libPods-xNetFuture-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xNetFuture-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4FB235D9E89FD0CC7F5E9F /* Pods-xNetFuture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xNetFuture.debug.xcconfig"; path = "Target Support Files/Pods-xNetFuture/Pods-xNetFuture.debug.xcconfig"; sourceTree = "<group>"; };
+		FB3D485C2A8E28B200B2671F /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		FB3D485D2A8E28BA00B2671F /* libresolv.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.9.tbd; path = usr/lib/libresolv.9.tbd; sourceTree = SDKROOT; };
+		FB3D485E2A8E28D700B2671F /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		FB3D48682A8E3DF700B2671F /* xFutureTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = xFutureTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3D48692A8E3DF700B2671F /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		FB3D486C2A8E3DF800B2671F /* PacketTunnelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		FB3D486D2A8E3DF800B2671F /* PacketTunnelProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
+		FB3D486F2A8E3DF800B2671F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3D48702A8E3DF800B2671F /* xFutureTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xFutureTunnel.entitlements; sourceTree = "<group>"; };
+		FB3D48822A8E5E7C00B2671F /* YDVPNListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVPNListItem.m; sourceTree = "<group>"; };
+		FB3D48832A8E5E7C00B2671F /* YDVTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVTextField.h; sourceTree = "<group>"; };
+		FB3D48852A8E5E7C00B2671F /* YDVTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVTextField.m; sourceTree = "<group>"; };
+		FB3D48862A8E5E7C00B2671F /* YDXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDXButton.h; sourceTree = "<group>"; };
+		FB3D48872A8E5E7C00B2671F /* YDVPNListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVPNListItem.h; sourceTree = "<group>"; };
+		FB3D48882A8E5E7D00B2671F /* YDVDashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDVDashView.h; sourceTree = "<group>"; };
+		FB3D48892A8E5E7D00B2671F /* YDVDashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDVDashView.m; sourceTree = "<group>"; };
+		FB3D488A2A8E5E7D00B2671F /* YDXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDXButton.m; sourceTree = "<group>"; };
+		FB3D48A32A8E600100B2671F /* 打地鼠.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "打地鼠.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3D48A52A8E600100B2671F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB3D48A62A8E600100B2671F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB3D48A82A8E600100B2671F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FB3D48A92A8E600100B2671F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FB3D48AB2A8E600100B2671F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB3D48AC2A8E600100B2671F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB3D48AF2A8E600100B2671F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB3D48B12A8E600200B2671F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB3D48B42A8E600200B2671F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB3D48B62A8E600200B2671F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3D48B72A8E600200B2671F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB3D48BF2A8E60E400B2671F /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
+		FB3D48C62A8E618500B2671F /* xFutureTunnel-iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xFutureTunnel-iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3D48CC2A8E618500B2671F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3D48CD2A8E618500B2671F /* xFutureTunnel_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xFutureTunnel_iOS.entitlements; sourceTree = "<group>"; };
+		FB3D48DD2A8E653600B2671F /* xNetFuture-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "xNetFuture-iOS.entitlements"; sourceTree = "<group>"; };
+		FB6B6AFC2A3C350000349B44 /* xNetFuture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xNetFuture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6B6AFF2A3C350000349B44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB6B6B002A3C350000349B44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB6B6B052A3C350100349B44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6B6B082A3C350100349B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB6B6B0A2A3C350100349B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB6B6B0C2A3C350100349B44 /* xNetFuture.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xNetFuture.entitlements; sourceTree = "<group>"; };
+		FB6B6B2C2A3C36B800349B44 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6B6B342A3C39C100349B44 /* YDVPNListItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YDVPNListItem.xib; sourceTree = "<group>"; };
+		FB6B6B362A3C3E8B00349B44 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB6B6B372A3C3E8B00349B44 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB6B6B392A3C445200349B44 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FB6B6B3A2A3C456100349B44 /* geoip.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = geoip.dat; sourceTree = "<group>"; };
+		FB6B6B3B2A3C456100349B44 /* geosite.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = geosite.dat; sourceTree = "<group>"; };
+		FBC689A12AA8538C00940B09 /* Future.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Future.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB3D48652A8E3DF700B2671F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3D486A2A8E3DF700B2671F /* NetworkExtension.framework in Frameworks */,
+				FB3D487F2A8E3EBC00B2671F /* libresolv.tbd in Frameworks */,
+				FBC689A32AA8538C00940B09 /* Future.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3D48A02A8E600100B2671F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC689A42AA8538C00940B09 /* Future.xcframework in Frameworks */,
+				FB3D48C02A8E60E900B2671F /* libresolv.tbd in Frameworks */,
+				844018AD7F5EF6D368B8BD91 /* libPods-xNetFuture-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3D48C32A8E618500B2671F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3D48C72A8E618500B2671F /* NetworkExtension.framework in Frameworks */,
+				FB3D48DC2A8E640400B2671F /* libresolv.tbd in Frameworks */,
+				FBC689A52AA8538C00940B09 /* Future.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B6AF92A3C350000349B44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC689A22AA8538C00940B09 /* Future.xcframework in Frameworks */,
+				FB6B6B2D2A3C36B800349B44 /* Masonry.framework in Frameworks */,
+				32A5CDD2E7B3ADF8728276D5 /* Pods_xNetFuture.framework in Frameworks */,
+				FB3D485F2A8E28E200B2671F /* libresolv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F19AFD2BD9F31600D21CE5 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				04F19B622BDA506400D21CE5 /* Resource */,
+				04F19B3D2BD9F38E00D21CE5 /* RouteBase */,
+				04F19AFE2BD9F31600D21CE5 /* VPNManager */,
+				04F19B0C2BD9F31600D21CE5 /* Encrypt */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		04F19AFE2BD9F31600D21CE5 /* VPNManager */ = {
+			isa = PBXGroup;
+			children = (
+				04F19B5F2BDA015400D21CE5 /* YDPCH.h */,
+				04F19B022BD9F31600D21CE5 /* YDConnection_.h */,
+				04F19B072BD9F31600D21CE5 /* YDConnection_.m */,
+				04F19B062BD9F31600D21CE5 /* YDConnection.h */,
+				04F19AFF2BD9F31600D21CE5 /* YDConnection.m */,
+				04F19B0B2BD9F31600D21CE5 /* YDFutureManager.h */,
+				04F19B032BD9F31600D21CE5 /* YDFutureManager.m */,
+				04F19B042BD9F31600D21CE5 /* YDProtocolParser.h */,
+				04F19B0A2BD9F31600D21CE5 /* YDProtocolParser.m */,
+				04F19B012BD9F31600D21CE5 /* YDVPNManager.h */,
+				04F19B082BD9F31600D21CE5 /* YDVPNManager.m */,
+				04F19B052BD9F31600D21CE5 /* YDVPNStatus.h */,
+				04F19B002BD9F31600D21CE5 /* YDVPNStatus.m */,
+			);
+			path = VPNManager;
+			sourceTree = "<group>";
+		};
+		04F19B0C2BD9F31600D21CE5 /* Encrypt */ = {
+			isa = PBXGroup;
+			children = (
+				04F19B112BD9F31600D21CE5 /* AESCrypt.h */,
+				04F19B0E2BD9F31600D21CE5 /* AESCrypt.m */,
+				04F19B0F2BD9F31600D21CE5 /* NSData+Base64.h */,
+				04F19B142BD9F31600D21CE5 /* NSData+Base64.m */,
+				04F19B102BD9F31600D21CE5 /* NSData+CommonCrypto.h */,
+				04F19B132BD9F31600D21CE5 /* NSData+CommonCrypto.m */,
+				04F19B122BD9F31600D21CE5 /* NSString+Base64.h */,
+				04F19B0D2BD9F31600D21CE5 /* NSString+Base64.m */,
+			);
+			path = Encrypt;
+			sourceTree = "<group>";
+		};
+		04F19B3D2BD9F38E00D21CE5 /* RouteBase */ = {
+			isa = PBXGroup;
+			children = (
+				04F19C352BEA1CB900D21CE5 /* SZJsonLog.h */,
+				04F19C362BEA1CBA00D21CE5 /* SZJsonLog.m */,
+				04F19B472BD9F38E00D21CE5 /* HLLFileLog.h */,
+				04F19B422BD9F38E00D21CE5 /* HLLFileLog.m */,
+				04F19B3E2BD9F38E00D21CE5 /* JSONUtils.h */,
+				04F19B432BD9F38E00D21CE5 /* JSONUtils.m */,
+				04F19B462BD9F38E00D21CE5 /* NSError+Helper.h */,
+				04F19B402BD9F38E00D21CE5 /* NSError+Helper.m */,
+				04F19B442BD9F38E00D21CE5 /* Potatso.h */,
+				04F19B3F2BD9F38E00D21CE5 /* Potatso.m */,
+				04F19B412BD9F38E00D21CE5 /* Settings.h */,
+				04F19B452BD9F38E00D21CE5 /* Settings.m */,
+			);
+			path = RouteBase;
+			sourceTree = "<group>";
+		};
+		04F19B622BDA506400D21CE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B6B3A2A3C456100349B44 /* geoip.dat */,
+				FB6B6B3B2A3C456100349B44 /* geosite.dat */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		04F19C592BEB2E3E00D21CE5 /* RealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				04F19C5A2BEB2E3E00D21CE5 /* RealReachability.h */,
+				04F19C5B2BEB2E3E00D21CE5 /* Ping */,
+				04F19C612BEB2E3E00D21CE5 /* Connection */,
+				04F19C642BEB2E3E00D21CE5 /* FSM */,
+				04F19C762BEB2E3E00D21CE5 /* RealReachability.m */,
+			);
+			path = RealReachability;
+			sourceTree = "<group>";
+		};
+		04F19C5B2BEB2E3E00D21CE5 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				04F19C5C2BEB2E3E00D21CE5 /* PingFoundation.h */,
+				04F19C5D2BEB2E3E00D21CE5 /* PingHelper.h */,
+				04F19C5E2BEB2E3E00D21CE5 /* README.md */,
+				04F19C5F2BEB2E3E00D21CE5 /* PingFoundation.m */,
+				04F19C602BEB2E3E00D21CE5 /* PingHelper.m */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		04F19C612BEB2E3E00D21CE5 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				04F19C622BEB2E3E00D21CE5 /* LocalConnection.h */,
+				04F19C632BEB2E3E00D21CE5 /* LocalConnection.m */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		04F19C642BEB2E3E00D21CE5 /* FSM */ = {
+			isa = PBXGroup;
+			children = (
+				04F19C652BEB2E3E00D21CE5 /* FSMDefines.h */,
+				04F19C662BEB2E3E00D21CE5 /* ReachStateUnReachable.h */,
+				04F19C672BEB2E3E00D21CE5 /* ReachStateWWAN.h */,
+				04F19C682BEB2E3E00D21CE5 /* ReachStateUnloaded.h */,
+				04F19C692BEB2E3E00D21CE5 /* FSMStateUtil.h */,
+				04F19C6A2BEB2E3E00D21CE5 /* FSMEngine.h */,
+				04F19C6B2BEB2E3E00D21CE5 /* ReachStateLoading.h */,
+				04F19C6C2BEB2E3E00D21CE5 /* ReachState.m */,
+				04F19C6D2BEB2E3E00D21CE5 /* ReachStateWIFI.h */,
+				04F19C6E2BEB2E3E00D21CE5 /* ReachStateUnloaded.m */,
+				04F19C6F2BEB2E3E00D21CE5 /* ReachStateUnReachable.m */,
+				04F19C702BEB2E3E00D21CE5 /* ReachStateWWAN.m */,
+				04F19C712BEB2E3E00D21CE5 /* ReachState.h */,
+				04F19C722BEB2E3E00D21CE5 /* ReachStateLoading.m */,
+				04F19C732BEB2E3E00D21CE5 /* FSMEngine.m */,
+				04F19C742BEB2E3E00D21CE5 /* FSMStateUtil.m */,
+				04F19C752BEB2E3E00D21CE5 /* ReachStateWIFI.m */,
+			);
+			path = FSM;
+			sourceTree = "<group>";
+		};
+		1240172F08A98BE98C5BDC53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FB235D9E89FD0CC7F5E9F /* Pods-xNetFuture.debug.xcconfig */,
+				C433548FDA88549F543C1B12 /* Pods-xNetFuture.release.xcconfig */,
+				C7468608939E25B05FC9EE9D /* Pods-xNetFuture-iOS.debug.xcconfig */,
+				4B7C56BE5EB32D40BC077078 /* Pods-xNetFuture-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB3D486B2A8E3DF800B2671F /* xFutureTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D486C2A8E3DF800B2671F /* PacketTunnelProvider.h */,
+				FB3D486D2A8E3DF800B2671F /* PacketTunnelProvider.m */,
+				FBC689A12AA8538C00940B09 /* Future.xcframework */,
+				FB3D486F2A8E3DF800B2671F /* Info.plist */,
+				FB3D48702A8E3DF800B2671F /* xFutureTunnel.entitlements */,
+			);
+			path = xFutureTunnel;
+			sourceTree = "<group>";
+		};
+		FB3D48A42A8E600100B2671F /* xNetFuture-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D48DD2A8E653600B2671F /* xNetFuture-iOS.entitlements */,
+				FB3D48A52A8E600100B2671F /* AppDelegate.h */,
+				FB3D48A62A8E600100B2671F /* AppDelegate.m */,
+				FB3D48A82A8E600100B2671F /* SceneDelegate.h */,
+				FB3D48A92A8E600100B2671F /* SceneDelegate.m */,
+				FB3D48AB2A8E600100B2671F /* ViewController.h */,
+				FB3D48AC2A8E600100B2671F /* ViewController.m */,
+				04F19C3B2BEA55D500D21CE5 /* MDVPNTypeCell.h */,
+				04F19C3C2BEA55D500D21CE5 /* MDVPNTypeCell.m */,
+				04F19C412BEA56DA00D21CE5 /* MDVPNModel.h */,
+				04F19C422BEA56DA00D21CE5 /* MDVPNModel.m */,
+				04F19C472BEB03B000D21CE5 /* MDLineViewController.h */,
+				04F19C482BEB03B000D21CE5 /* MDLineViewController.m */,
+				04F19C4D2BEB096A00D21CE5 /* JSTool.h */,
+				04F19C4E2BEB096A00D21CE5 /* JSTool.m */,
+				04F19C542BEB0A7300D21CE5 /* UIColor+DD.h */,
+				04F19C532BEB0A7200D21CE5 /* UIColor+DD.m */,
+				04F19CAB2BEB2E5500D21CE5 /* JSNetReachableManager.h */,
+				04F19CAC2BEB2E5500D21CE5 /* JSNetReachableManager.m */,
+				04F19C592BEB2E3E00D21CE5 /* RealReachability */,
+				FB3D48AE2A8E600100B2671F /* Main.storyboard */,
+				FB3D48B12A8E600200B2671F /* Assets.xcassets */,
+				FB3D48B32A8E600200B2671F /* LaunchScreen.storyboard */,
+				FB3D48B62A8E600200B2671F /* Info.plist */,
+				FB3D48B72A8E600200B2671F /* main.m */,
+			);
+			path = "xNetFuture-iOS";
+			sourceTree = "<group>";
+		};
+		FB3D48C82A8E618500B2671F /* xFutureTunnel-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D48CC2A8E618500B2671F /* Info.plist */,
+				FB3D48CD2A8E618500B2671F /* xFutureTunnel_iOS.entitlements */,
+			);
+			path = "xFutureTunnel-iOS";
+			sourceTree = "<group>";
+		};
+		FB6B6AF32A3C350000349B44 = {
+			isa = PBXGroup;
+			children = (
+				FB6B6AFE2A3C350000349B44 /* xNetFuture */,
+				FB3D486B2A8E3DF800B2671F /* xFutureTunnel */,
+				FB3D48A42A8E600100B2671F /* xNetFuture-iOS */,
+				FB3D48C82A8E618500B2671F /* xFutureTunnel-iOS */,
+				FB6B6AFD2A3C350000349B44 /* Products */,
+				FB6B6B1B2A3C359100349B44 /* Frameworks */,
+				1240172F08A98BE98C5BDC53 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6B6AFD2A3C350000349B44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B6AFC2A3C350000349B44 /* xNetFuture.app */,
+				FB3D48682A8E3DF700B2671F /* xFutureTunnel.appex */,
+				FB3D48A32A8E600100B2671F /* 打地鼠.app */,
+				FB3D48C62A8E618500B2671F /* xFutureTunnel-iOS.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6B6AFE2A3C350000349B44 /* xNetFuture */ = {
+			isa = PBXGroup;
+			children = (
+				04F19AFD2BD9F31600D21CE5 /* Interface */,
+				FB6B6AFF2A3C350000349B44 /* AppDelegate.h */,
+				FB6B6B002A3C350000349B44 /* AppDelegate.m */,
+				FB6B6B372A3C3E8B00349B44 /* ViewController.h */,
+				FB6B6B362A3C3E8B00349B44 /* ViewController.m */,
+				FB3D48882A8E5E7D00B2671F /* YDVDashView.h */,
+				FB3D48892A8E5E7D00B2671F /* YDVDashView.m */,
+				FB3D48872A8E5E7C00B2671F /* YDVPNListItem.h */,
+				FB3D48822A8E5E7C00B2671F /* YDVPNListItem.m */,
+				FB6B6B342A3C39C100349B44 /* YDVPNListItem.xib */,
+				FB3D48832A8E5E7C00B2671F /* YDVTextField.h */,
+				FB3D48852A8E5E7C00B2671F /* YDVTextField.m */,
+				FB3D48862A8E5E7C00B2671F /* YDXButton.h */,
+				FB3D488A2A8E5E7D00B2671F /* YDXButton.m */,
+				FB6B6B052A3C350100349B44 /* Assets.xcassets */,
+				FB6B6B072A3C350100349B44 /* Main.storyboard */,
+				FB6B6B0A2A3C350100349B44 /* main.m */,
+				FB6B6B0C2A3C350100349B44 /* xNetFuture.entitlements */,
+			);
+			path = xNetFuture;
+			sourceTree = "<group>";
+		};
+		FB6B6B1B2A3C359100349B44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB3D485E2A8E28D700B2671F /* libresolv.tbd */,
+				FB3D48BF2A8E60E400B2671F /* libresolv.tbd */,
+				FB3D485D2A8E28BA00B2671F /* libresolv.9.tbd */,
+				FB3D485C2A8E28B200B2671F /* libiconv.2.4.0.tbd */,
+				FB6B6B2C2A3C36B800349B44 /* Masonry.framework */,
+				1D6CE664E05A99EA280E02A6 /* Pods_xNetFuture.framework */,
+				FB3D48692A8E3DF700B2671F /* NetworkExtension.framework */,
+				CCDFA44806172F06CF8CDF2C /* libPods-xNetFuture-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB3D48672A8E3DF700B2671F /* xFutureTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3D48742A8E3DF800B2671F /* Build configuration list for PBXNativeTarget "xFutureTunnel" */;
+			buildPhases = (
+				FB3D48642A8E3DF700B2671F /* Sources */,
+				FB3D48652A8E3DF700B2671F /* Frameworks */,
+				FB3D48662A8E3DF700B2671F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xFutureTunnel;
+			productName = xFutureTunnel;
+			productReference = FB3D48682A8E3DF700B2671F /* xFutureTunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FB3D48A22A8E600100B2671F /* xNetFuture-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3D48B92A8E600200B2671F /* Build configuration list for PBXNativeTarget "xNetFuture-iOS" */;
+			buildPhases = (
+				6D9D978FE9462A1C1FC9CEDD /* [CP] Check Pods Manifest.lock */,
+				FB3D489F2A8E600100B2671F /* Sources */,
+				FB3D48A02A8E600100B2671F /* Frameworks */,
+				FB3D48A12A8E600100B2671F /* Resources */,
+				FB3D48D02A8E618500B2671F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB3D48CF2A8E618500B2671F /* PBXTargetDependency */,
+			);
+			name = "xNetFuture-iOS";
+			productName = "xNetFuture-iOS";
+			productReference = FB3D48A32A8E600100B2671F /* 打地鼠.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB3D48C52A8E618500B2671F /* xFutureTunnel-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3D48D22A8E618500B2671F /* Build configuration list for PBXNativeTarget "xFutureTunnel-iOS" */;
+			buildPhases = (
+				FB3D48C22A8E618500B2671F /* Sources */,
+				FB3D48C32A8E618500B2671F /* Frameworks */,
+				FB3D48C42A8E618500B2671F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xFutureTunnel-iOS";
+			productName = "xFutureTunnel-iOS";
+			productReference = FB3D48C62A8E618500B2671F /* xFutureTunnel-iOS.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FB6B6AFB2A3C350000349B44 /* xNetFuture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6B6B0F2A3C350100349B44 /* Build configuration list for PBXNativeTarget "xNetFuture" */;
+			buildPhases = (
+				850AFAF67A35CBA280939C04 /* [CP] Check Pods Manifest.lock */,
+				FB6B6AF82A3C350000349B44 /* Sources */,
+				FB6B6AF92A3C350000349B44 /* Frameworks */,
+				FB6B6AFA2A3C350000349B44 /* Resources */,
+				FB6B6B1E2A3C359100349B44 /* Embed Frameworks */,
+				E23998363168DED0E1A64535 /* [CP] Embed Pods Frameworks */,
+				FB3D48772A8E3DF800B2671F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB3D48722A8E3DF800B2671F /* PBXTargetDependency */,
+			);
+			name = xNetFuture;
+			productName = xNetFuture;
+			productReference = FB6B6AFC2A3C350000349B44 /* xNetFuture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6B6AF42A3C350000349B44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FB3D48672A8E3DF700B2671F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FB3D48A22A8E600100B2671F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FB3D48C52A8E618500B2671F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FB6B6AFB2A3C350000349B44 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FB6B6AF72A3C350000349B44 /* Build configuration list for PBXProject "xNetFuture" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = FB6B6AF32A3C350000349B44;
+			productRefGroup = FB6B6AFD2A3C350000349B44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6B6AFB2A3C350000349B44 /* xNetFuture */,
+				FB3D48672A8E3DF700B2671F /* xFutureTunnel */,
+				FB3D48A22A8E600100B2671F /* xNetFuture-iOS */,
+				FB3D48C52A8E618500B2671F /* xFutureTunnel-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB3D48662A8E3DF700B2671F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F19C782BEB2E3E00D21CE5 /* README.md in Resources */,
+				FB3D489B2A8E5F7200B2671F /* geosite.dat in Resources */,
+				FB3D489A2A8E5F7200B2671F /* geoip.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3D48A12A8E600100B2671F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3D48B52A8E600200B2671F /* LaunchScreen.storyboard in Resources */,
+				FB3D48B22A8E600200B2671F /* Assets.xcassets in Resources */,
+				04F19C792BEB2E3E00D21CE5 /* README.md in Resources */,
+				FB3D48B02A8E600100B2671F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3D48C42A8E618500B2671F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F19C7A2BEB2E3E00D21CE5 /* README.md in Resources */,
+				FB3D48D82A8E61AB00B2671F /* geosite.dat in Resources */,
+				FB3D48D72A8E61AB00B2671F /* geoip.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B6AFA2A3C350000349B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6B6B062A3C350100349B44 /* Assets.xcassets in Resources */,
+				FB6B6B092A3C350100349B44 /* Main.storyboard in Resources */,
+				04F19C772BEB2E3E00D21CE5 /* README.md in Resources */,
+				FB6B6B352A3C39C100349B44 /* YDVPNListItem.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D9D978FE9462A1C1FC9CEDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xNetFuture-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		850AFAF67A35CBA280939C04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xNetFuture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23998363168DED0E1A64535 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xNetFuture/Pods-xNetFuture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xNetFuture/Pods-xNetFuture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xNetFuture/Pods-xNetFuture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB3D48642A8E3DF700B2671F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F19C942BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */,
+				04F19B1A2BD9F31700D21CE5 /* YDVPNStatus.m in Sources */,
+				04F19C442BEA56DA00D21CE5 /* MDVPNModel.m in Sources */,
+				04F19B2A2BD9F31700D21CE5 /* YDProtocolParser.m in Sources */,
+				04F19B362BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */,
+				04F19B552BD9F38E00D21CE5 /* JSONUtils.m in Sources */,
+				04F19CA82BEB2E3F00D21CE5 /* RealReachability.m in Sources */,
+				04F19B512BD9F38E00D21CE5 /* HLLFileLog.m in Sources */,
+				04F19B5D2BD9FEB400D21CE5 /* YDVPNManager.m in Sources */,
+				04F19C7C2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */,
+				04F19CA42BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */,
+				04F19C8C2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */,
+				04F19B3A2BD9F31700D21CE5 /* NSData+Base64.m in Sources */,
+				04F19B592BD9F38E00D21CE5 /* Settings.m in Sources */,
+				04F19B162BD9F31700D21CE5 /* YDConnection.m in Sources */,
+				04F19C902BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */,
+				04F19CA02BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */,
+				04F19C382BEA1CBC00D21CE5 /* SZJsonLog.m in Sources */,
+				04F19C562BEB0A7300D21CE5 /* UIColor+DD.m in Sources */,
+				FB3D486E2A8E3DF800B2671F /* PacketTunnelProvider.m in Sources */,
+				04F19B492BD9F38E00D21CE5 /* Potatso.m in Sources */,
+				04F19C982BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */,
+				04F19C842BEB2E3F00D21CE5 /* LocalConnection.m in Sources */,
+				04F19B2E2BD9F31700D21CE5 /* NSString+Base64.m in Sources */,
+				04F19B4D2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */,
+				04F19B222BD9F31700D21CE5 /* YDConnection_.m in Sources */,
+				04F19B1E2BD9F31700D21CE5 /* YDFutureManager.m in Sources */,
+				04F19B322BD9F31700D21CE5 /* AESCrypt.m in Sources */,
+				04F19C802BEB2E3E00D21CE5 /* PingHelper.m in Sources */,
+				04F19CAE2BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */,
+				04F19C502BEB096A00D21CE5 /* JSTool.m in Sources */,
+				04F19C882BEB2E3F00D21CE5 /* ReachState.m in Sources */,
+				04F19C9C2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3D489F2A8E600100B2671F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F19C7D2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */,
+				FB3D48AD2A8E600100B2671F /* ViewController.m in Sources */,
+				04F19B4E2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */,
+				04F19C852BEB2E3F00D21CE5 /* LocalConnection.m in Sources */,
+				04F19C912BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */,
+				FB3D48A72A8E600100B2671F /* AppDelegate.m in Sources */,
+				04F19B5A2BD9F38E00D21CE5 /* Settings.m in Sources */,
+				04F19B272BD9F31700D21CE5 /* YDVPNManager.m in Sources */,
+				04F19C452BEA56DA00D21CE5 /* MDVPNModel.m in Sources */,
+				04F19B3B2BD9F31700D21CE5 /* NSData+Base64.m in Sources */,
+				04F19B372BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */,
+				FB3D48B82A8E600200B2671F /* main.m in Sources */,
+				04F19C952BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */,
+				04F19C572BEB0A7300D21CE5 /* UIColor+DD.m in Sources */,
+				04F19B332BD9F31700D21CE5 /* AESCrypt.m in Sources */,
+				04F19C812BEB2E3E00D21CE5 /* PingHelper.m in Sources */,
+				04F19C9D2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */,
+				04F19B1F2BD9F31700D21CE5 /* YDFutureManager.m in Sources */,
+				04F19CA92BEB2E3F00D21CE5 /* RealReachability.m in Sources */,
+				04F19CA52BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */,
+				04F19B562BD9F38E00D21CE5 /* JSONUtils.m in Sources */,
+				04F19B2B2BD9F31700D21CE5 /* YDProtocolParser.m in Sources */,
+				04F19C8D2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */,
+				04F19B2F2BD9F31700D21CE5 /* NSString+Base64.m in Sources */,
+				04F19C512BEB096A00D21CE5 /* JSTool.m in Sources */,
+				04F19CA12BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */,
+				04F19B1B2BD9F31700D21CE5 /* YDVPNStatus.m in Sources */,
+				FB3D48AA2A8E600100B2671F /* SceneDelegate.m in Sources */,
+				04F19B4A2BD9F38E00D21CE5 /* Potatso.m in Sources */,
+				04F19B232BD9F31700D21CE5 /* YDConnection_.m in Sources */,
+				04F19B172BD9F31700D21CE5 /* YDConnection.m in Sources */,
+				04F19C992BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */,
+				04F19B522BD9F38E00D21CE5 /* HLLFileLog.m in Sources */,
+				04F19C392BEA1CBC00D21CE5 /* SZJsonLog.m in Sources */,
+				04F19CAF2BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */,
+				04F19C4B2BEB03B000D21CE5 /* MDLineViewController.m in Sources */,
+				04F19C892BEB2E3F00D21CE5 /* ReachState.m in Sources */,
+				04F19C3F2BEA55D600D21CE5 /* MDVPNTypeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3D48C22A8E618500B2671F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F19C962BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */,
+				04F19B1C2BD9F31700D21CE5 /* YDVPNStatus.m in Sources */,
+				04F19C462BEA56DA00D21CE5 /* MDVPNModel.m in Sources */,
+				04F19B2C2BD9F31700D21CE5 /* YDProtocolParser.m in Sources */,
+				04F19B382BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */,
+				04F19B572BD9F38E00D21CE5 /* JSONUtils.m in Sources */,
+				04F19CAA2BEB2E3F00D21CE5 /* RealReachability.m in Sources */,
+				04F19B532BD9F38E00D21CE5 /* HLLFileLog.m in Sources */,
+				04F19B5C2BD9FEB300D21CE5 /* YDVPNManager.m in Sources */,
+				04F19C7E2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */,
+				04F19CA62BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */,
+				04F19C8E2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */,
+				04F19B3C2BD9F31700D21CE5 /* NSData+Base64.m in Sources */,
+				04F19B5B2BD9F38E00D21CE5 /* Settings.m in Sources */,
+				04F19B182BD9F31700D21CE5 /* YDConnection.m in Sources */,
+				04F19C922BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */,
+				04F19CA22BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */,
+				04F19C3A2BEA1CBE00D21CE5 /* SZJsonLog.m in Sources */,
+				04F19C582BEB0A7300D21CE5 /* UIColor+DD.m in Sources */,
+				FB3D48D52A8E61A300B2671F /* PacketTunnelProvider.m in Sources */,
+				04F19B4B2BD9F38E00D21CE5 /* Potatso.m in Sources */,
+				04F19C9A2BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */,
+				04F19C862BEB2E3F00D21CE5 /* LocalConnection.m in Sources */,
+				04F19B302BD9F31700D21CE5 /* NSString+Base64.m in Sources */,
+				04F19B4F2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */,
+				04F19B242BD9F31700D21CE5 /* YDConnection_.m in Sources */,
+				04F19B202BD9F31700D21CE5 /* YDFutureManager.m in Sources */,
+				04F19B342BD9F31700D21CE5 /* AESCrypt.m in Sources */,
+				04F19C822BEB2E3E00D21CE5 /* PingHelper.m in Sources */,
+				04F19CB02BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */,
+				04F19C522BEB096A00D21CE5 /* JSTool.m in Sources */,
+				04F19C8A2BEB2E3F00D21CE5 /* ReachState.m in Sources */,
+				04F19C9E2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6B6AF82A3C350000349B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F19CB12BEB49BB00D21CE5 /* ViewController.m in Sources */,
+				04F19CA32BEB2E3F00D21CE5 /* ReachStateWIFI.m in Sources */,
+				04F19B352BD9F31700D21CE5 /* NSData+CommonCrypto.m in Sources */,
+				04F19B192BD9F31700D21CE5 /* YDVPNStatus.m in Sources */,
+				04F19C9B2BEB2E3F00D21CE5 /* FSMEngine.m in Sources */,
+				FB6B6B382A3C3E8B00349B44 /* ViewController.m in Sources */,
+				FB3D488E2A8E5E7D00B2671F /* YDVPNListItem.m in Sources */,
+				04F19B392BD9F31700D21CE5 /* NSData+Base64.m in Sources */,
+				04F19B502BD9F38E00D21CE5 /* HLLFileLog.m in Sources */,
+				04F19C372BEA1CBB00D21CE5 /* SZJsonLog.m in Sources */,
+				FB3D488F2A8E5E7D00B2671F /* YDVTextField.m in Sources */,
+				FB6B6B0B2A3C350100349B44 /* main.m in Sources */,
+				04F19C7F2BEB2E3E00D21CE5 /* PingHelper.m in Sources */,
+				04F19B4C2BD9F38E00D21CE5 /* NSError+Helper.m in Sources */,
+				04F19C872BEB2E3F00D21CE5 /* ReachState.m in Sources */,
+				04F19C972BEB2E3F00D21CE5 /* ReachStateLoading.m in Sources */,
+				04F19B5E2BD9FEB400D21CE5 /* YDVPNManager.m in Sources */,
+				04F19C492BEB03B000D21CE5 /* MDLineViewController.m in Sources */,
+				04F19B2D2BD9F31700D21CE5 /* NSString+Base64.m in Sources */,
+				04F19CA72BEB2E3F00D21CE5 /* RealReachability.m in Sources */,
+				04F19B312BD9F31700D21CE5 /* AESCrypt.m in Sources */,
+				04F19B212BD9F31700D21CE5 /* YDConnection_.m in Sources */,
+				04F19B292BD9F31700D21CE5 /* YDProtocolParser.m in Sources */,
+				04F19B582BD9F38E00D21CE5 /* Settings.m in Sources */,
+				04F19C7B2BEB2E3E00D21CE5 /* PingFoundation.m in Sources */,
+				04F19C932BEB2E3F00D21CE5 /* ReachStateWWAN.m in Sources */,
+				04F19C832BEB2E3F00D21CE5 /* LocalConnection.m in Sources */,
+				04F19B482BD9F38E00D21CE5 /* Potatso.m in Sources */,
+				04F19C3D2BEA55D500D21CE5 /* MDVPNTypeCell.m in Sources */,
+				04F19C9F2BEB2E3F00D21CE5 /* FSMStateUtil.m in Sources */,
+				04F19C432BEA56DA00D21CE5 /* MDVPNModel.m in Sources */,
+				04F19B1D2BD9F31700D21CE5 /* YDFutureManager.m in Sources */,
+				FB3D48902A8E5E7D00B2671F /* YDVDashView.m in Sources */,
+				04F19C8F2BEB2E3F00D21CE5 /* ReachStateUnReachable.m in Sources */,
+				FB3D48912A8E5E7D00B2671F /* YDXButton.m in Sources */,
+				04F19B542BD9F38E00D21CE5 /* JSONUtils.m in Sources */,
+				04F19B152BD9F31700D21CE5 /* YDConnection.m in Sources */,
+				FB6B6B012A3C350000349B44 /* AppDelegate.m in Sources */,
+				04F19C4F2BEB096A00D21CE5 /* JSTool.m in Sources */,
+				04F19C552BEB0A7300D21CE5 /* UIColor+DD.m in Sources */,
+				04F19C8B2BEB2E3F00D21CE5 /* ReachStateUnloaded.m in Sources */,
+				04F19CAD2BEB2E5500D21CE5 /* JSNetReachableManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB3D48722A8E3DF800B2671F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB3D48672A8E3DF700B2671F /* xFutureTunnel */;
+			targetProxy = FB3D48712A8E3DF800B2671F /* PBXContainerItemProxy */;
+		};
+		FB3D48CF2A8E618500B2671F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB3D48C52A8E618500B2671F /* xFutureTunnel-iOS */;
+			targetProxy = FB3D48CE2A8E618500B2671F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB3D48AE2A8E600100B2671F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3D48AF2A8E600100B2671F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB3D48B32A8E600200B2671F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB3D48B42A8E600200B2671F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6B6B072A3C350100349B44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6B6B082A3C350100349B44 /* Base */,
+				FB6B6B392A3C445200349B44 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB3D48752A8E3DF800B2671F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = xFutureTunnel/xFutureTunnel.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xFutureTunnel",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xFutureTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = xFutureTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.linkv.xNetFuture.xFutureTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		FB3D48762A8E3DF800B2671F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = xFutureTunnel/xFutureTunnel.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xFutureTunnel",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = xFutureTunnel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = xFutureTunnel;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.linkv.xNetFuture.xFutureTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		FB3D48BA2A8E600200B2671F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7468608939E25B05FC9EE9D /* Pods-xNetFuture-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "xNetFuture-iOS/xNetFuture-iOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = V64PT62KCX;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xNetFuture-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "打地鼠";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurricane.identifier;
+				PRODUCT_NAME = "打地鼠";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = hurricane_dev_profile;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB3D48BB2A8E600200B2671F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7C56BE5EB32D40BC077078 /* Pods-xNetFuture-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "xNetFuture-iOS/xNetFuture-iOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = V64PT62KCX;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xNetFuture-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "打地鼠";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurricane.identifier;
+				PRODUCT_NAME = "打地鼠";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = hurricane_adhoc_profile;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB3D48D32A8E618500B2671F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "xFutureTunnel-iOS/xFutureTunnel_iOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = V64PT62KCX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xFutureTunnel-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xFutureTunnel-iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurricane.identifier.tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = hurricane_tunnel_dev_profile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB3D48D42A8E618500B2671F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "xFutureTunnel-iOS/xFutureTunnel_iOS.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = V64PT62KCX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "xFutureTunnel-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xFutureTunnel-iOS";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hurricane.identifier.tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = hurricane_tunnel_adhoc_profile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6B6B0D2A3C350100349B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB6B6B0E2A3C350100349B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB6B6B102A3C350100349B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4FB235D9E89FD0CC7F5E9F /* Pods-xNetFuture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xNetFuture/xNetFuture.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PacketTunnel2Socket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		FB6B6B112A3C350100349B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C433548FDA88549F543C1B12 /* Pods-xNetFuture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xNetFuture/xNetFuture.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PacketTunnel2Socket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB3D48742A8E3DF800B2671F /* Build configuration list for PBXNativeTarget "xFutureTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3D48752A8E3DF800B2671F /* Debug */,
+				FB3D48762A8E3DF800B2671F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3D48B92A8E600200B2671F /* Build configuration list for PBXNativeTarget "xNetFuture-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3D48BA2A8E600200B2671F /* Debug */,
+				FB3D48BB2A8E600200B2671F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3D48D22A8E618500B2671F /* Build configuration list for PBXNativeTarget "xFutureTunnel-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB3D48D32A8E618500B2671F /* Debug */,
+				FB3D48D42A8E618500B2671F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6B6AF72A3C350000349B44 /* Build configuration list for PBXProject "xNetFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B6B0D2A3C350100349B44 /* Debug */,
+				FB6B6B0E2A3C350100349B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6B6B0F2A3C350100349B44 /* Build configuration list for PBXNativeTarget "xNetFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6B6B102A3C350100349B44 /* Debug */,
+				FB6B6B112A3C350100349B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6B6AF42A3C350000349B44 /* Project object */;
+}
