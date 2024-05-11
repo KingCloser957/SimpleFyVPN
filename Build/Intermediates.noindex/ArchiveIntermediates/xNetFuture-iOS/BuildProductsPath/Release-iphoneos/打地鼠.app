@@ -1,1 +1,0 @@
-../../InstallationBuildProductsLocation/Applications/打地鼠.app
